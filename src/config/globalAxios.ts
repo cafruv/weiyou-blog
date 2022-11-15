@@ -9,7 +9,7 @@ const X_API_KEY: string = process.env.X_API_KEY || ''
 const globalAxios = axios.create({
   headers: {
     'Content-type': 'application/json',
-    'X-API-KEY': X_API_KEY,
+    'X-MICROCMS-API-KEY': X_API_KEY,
   },
 })
 
